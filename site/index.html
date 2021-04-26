@@ -21,10 +21,11 @@
         </ul>
     </section>
 
-    <section id='#Leccion1'>
+    <section id='Leccion1'>
+
         <h2>Leccion 1</h2>
         <p>
-            Explicacion de la importancia semantica en html5, lo primero explicado es que las etiquetas &lt;h1&gt;, &lt;h2&gt;, ......., &lt;hn&gt; son simplemente para que el codigo de html sea mas legible para el programador, y agrgar una estructura jerarquica a los encabezados nada mas, ya que aunque si haya una diferencia de tamaño inicialmente todo eso se arregla facil en css pudiendole poner el tamaño que desees a la imprenta.<br> <br>
+            Explicacion de la importancia semantica en html5, lo primero explicado es que las etiquetas &lt;h1&gt;, &lt;h2&gt;, ......., &lt;hn&gt; son simplemente para que el codigo de html sea mas legible para el programador, y agregar una estructura jerarquica a los encabezados nada mas, ya que aunque si haya una diferencia de tamaño inicialmente todo eso se arregla facil en css pudiendole poner el tamaño que desees a la imprenta.<br> <br>
             
             Otras etiquetas mostradas son:
             <ul>
@@ -39,7 +40,56 @@
         </p>
 
     </section>
+        
+    <section id='Leccion2'>
 
+        <h3>Leccion 2</h3>
+        <p>En esta leccion vemos el tema de las listas acerca de como es un elemento muy comun ya que se usa frecuentemente, hay dos tipos de listas: las listas desordenadas y las listas ordenadas. <br>
+            Las listas desordenadas utilizan la etiqueta &lt;ul&gt;, y para cada uno de los elementos internos de la lista desordenada se utiliza &lt;li&gt;, ademas se puede crear listas dentro de listas si se quisiera implementando el mismo formato.<br><br> Ejempo de lista desordenada:<br><br> 
+
+            &lt;ul&gt; (etiqueta lista desordenada)<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;cafe&lt;/li&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;tortitas&lt;/li&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;medialunas&lt;/li&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;galletas <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;de chocolate&lt;/li&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;dulces&lt;/li&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;de agua&lt;/li&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;manteca&lt;/li&gt; <br>
+            &lt;/ul&gt;<br><br>
+                
+                En cambio las listas ordenadas estan hechas con el proposito de dar pasos a seguir, dar un orden, su etiqueta es &lt;ol&gt; y al igual que las listas desordenadas para cada uno de sus elementos se utiliza la etiqueta &lt;li&gt; y se pueden crear listas dentro de otras.<br><br>
+
+                Ejemplo de lista ordenada: como armar una oreo doble <br><br>
+
+            &lt;ol&gt; (etiqueta lista ordenada)<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;abre el paquete&lt;/li&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;saca la galleta&lt;/li&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;has una doble oreo&lt;/li&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ol&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;despegar la parte superior&lt;/li&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;poner otra galleta en el medio&lt;/li&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;poner de nuevo la parte superior&lt;/li&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ol&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Disfruta!!!&lt;/li&gt; <br>
+            &lt;/ol&gt;<br><br>
+
+        </p>
+
+    </section>
+
+    <section id='Leccion3'>
+        <h3>Leccion 3</h3>
+        <p>
+            Un problema comun es que html utiliza ciertos caracteres para su sintaxis, necesitamos una forma de diferenciar entree esos caracteres como html y los mismo caracteres que el contenido, es decir, que necesitamos una forma que el navegador no interprete esos caracteres como de html.<br> Para eso se utilizan referencias de entidades de caracteres, hay tres caracteres que siempre tiene que ser evitados para no tener malas interpretaciones estos son: &lt; (su equivalente es '&amp;lt;'), &gt; (su equivalente es '&amp;gt;') y el &amp; (su equivalente '&amp;amp;'), hay otro como el caso de '&amp;nbsp;' que se utiliza para dar mas espacios a una oracion o bien para que palabras no se separen, y siempre queden juntas sin importar que sean palabras distintas, '&amp;copy;' es el simbolo de copyrigth (&copy;), '&amp;quot;' es el simbolo de las comillas ("). Estos son solo algunos ejemplos de referencias de entidades de caracteres.
+
+        </p>
+
+    </section>
 
 </body>
 </html>
