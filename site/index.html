@@ -91,5 +91,56 @@
 
     </section>
 
+    <section id='Leccion4'>
+        <h4>Leccion 4</h4>
+        <p>
+            Enumeremos tres formas de enlazar o linkear: 
+
+        <ol>
+            <li>
+           Los vinculos se crean con un atributo href (referencia de hypertexto) el valor de dicho elemento puede ser relativo o absulto, estos links son creados para archivos desntro del mismo directorio y por eso no hace especificar mucho del enlace. Siempre es bueno especificar un atriburo title a la etiqueta 'a', dicho atrubito es itulizado por los lectores de pantalla para ayudarlos a ver mejor la pagina, el contenido entre la apertura y el cierre de las etiquetas es el contenido que va a ver en la pagina web cuando veas el link, en cambio si usamos una etiqueta &lt;DIV&gt; el contenido que este ahi (ya sea una imagen, un logo, etc) sera el que tendra el link.<br><br>
+           Ej: &lt;a href='una direccion.html' title='misma direcc link'&gt;Este link lleva al archivo en el mismo directorio&lt;/a&gt;<br>
+           Ej (con etiqueta DIV): &lt;a href='una direccion.html' title='misma direcc link'<br>
+           &nbsp;&nbsp;&lt;div&gt;Aqui adentro se puede poner cualquier cosa y se hace un link en el mismo directorio&lt;/div&gt;<br>
+           &lt;/a&gt;<br><br>
+            </li>
+            <li>
+           Tambien existen los enlaces externos que que a diferencia de los anteriores estos llevan el 'http://' por que generalmente los enlaces externos stan alojados en un nombre de dominio diferente a nuestro sitio web (vease un link a youtube, fb, etc). Hay una caracteristica muy buena a destacar por lo util que resulta y es el atributo 'target'. Cuando el atributo target tiene el valor 'target=_blank' obliga al navegador a abrir esta pagina en una nueva pestaña o una nueva ventana, esto se realiza con la intencion de que la gente no abandone nuestra pagina del todo.<br><br>
+           Ej: &lt;a href='https://www.youtube.com/watch?v=35XFAkwmU4c' target='_blanc' title='Ve eeste video!!!'>video de you tube&lt;/a&gt;<br>
+           Este seria el resultado:  <a href='https://www.youtube.com/watch?v=35XFAkwmU4c' target='_blanc' title='Ve eeste video!!!'>video de you tube</a><br><br>
+            </li>
+          <li> El ultimo tipo de enlace es el utilizado en esta pagina y sirve para conectar mas facilmente las secciones de un apagina web y que sea de mas facil acceso el contenido este tipo de paginas es muy utilizada ultimamente.<br><br>
+           Ej: <br>
+            &lt;a href='#Leccion1'&gt;#Leccion1&lt;/a&gt;<br><br>
+            en este caso le tendriamos que dar un 'id' a la seccion para que quede linkeada<br>
+            &lt;section id='section1'&gt;
+          </li>  
+        </ol>
+            
+        </p>
+
+    </section>
+
+<section id='Leccion5'>
+
+    <h5>Leccion 5</h5>
+    <p>
+        En esta ultima leccion de html veremos como cargar una imagen, las imagenes se cargan atravez de la etiqueta:<br> &lt;img&gt; src='imagen aqui' width='400' height='235' alt='imagen con comilla'&gt;<br>
+        Las imagenes pueden ser subidas por directorio o por enlace externo por el mismo metodo solo que se le agregaria el 'http://' en 'src' width y height son las especificaciones de la imagen no son necesarias pero dejarlas aclaradas resulta beneficioso en varios casos (como por ej que la pagina se reserva el lugar de la imagen y asi la pagina no andara dando saltos de texto por imagenes que no carguen) por ultimop 'alt' ayuda a la gente con impedimentos visuales<br>
+        
+        <img src='https://cdn.discordapp.com/attachments/824470749066690611/833879474130124891/unknown.png' width='400' height='235' alt='imagen con comilla'>
+
+
+
+
+
+    </p>
+
+</section>
+
+
+
+
+
 </body>
 </html>
